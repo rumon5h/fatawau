@@ -20,11 +20,11 @@ const Navbar = () => {
         </span>
       </div>
       <div className="flex gap-7 text-black font-bold">
-        <Link href="#">تواصل معنا</Link>
-        <Link href="#">المدونات</Link>
-        <Link href="#">مجموع الفتاوى</Link>
-        <Link href="#">من نحن</Link>
-        <Link href="#">الرئيسية</Link>
+        <Link href="/contact">تواصل معنا</Link>
+        <Link href="/blogs">المدونات</Link>
+        <Link href="/fatwas">مجموع الفتاوى</Link>
+        <Link href="/aboutus">من نحن</Link>
+        <Link href="/main">الرئيسية</Link>
       </div>
       <div>
         <Image src="/logo.svg" alt="logo" width={88} height={89} />
