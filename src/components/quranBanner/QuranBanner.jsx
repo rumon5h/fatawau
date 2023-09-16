@@ -3,7 +3,7 @@ import React from 'react'
 
 const QuranBanner = () => {
   return (
-    <div className='flex justify-center mt-[-150px]'>
+    <div className='flex justify-center mt-[-150px] px-5'>
         <div className='flex flex-col gap-y-10 relative'>
             <h3 className='absolute top-[-21px] right-[-101px] bg-white py-[8px] px-[27px] rounded-[32px] text-black font-extrabold'>لا ينكر مسلم شفاعة الرسول</h3>
             <Image className='absolute top-[93px] right-[-76px]' src="/insurance.svg" alt='badge1' width={100} height={100}  />

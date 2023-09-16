@@ -19,7 +19,7 @@ const Navbar = () => {
           <FontAwesomeIcon width={20} height={20} icon={faEarthAmericas} />
         </span>
       </div>
-      <div className="flex gap-7">
+      <div className="flex gap-7 text-black font-bold">
         <Link href="#">تواصل معنا</Link>
         <Link href="#">المدونات</Link>
         <Link href="#">مجموع الفتاوى</Link>
