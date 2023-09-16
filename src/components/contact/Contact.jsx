@@ -45,29 +45,32 @@ const Contact = () => {
           />
         </div>
         <div className="flex flex-col gap-4">
-          <div className="flex w-[419px] h-[52px] shadow-xl items-center p-[16px] bg-white rounded-md">
+          <div className="flex w-[419px] h-[52px] shadow-xl items-center p-4 bg-white rounded-md">
             <input
-              className="w-full outline-none border-none h-full p-[16px] text-right"
+              className="w-full outline-none border-none h-full p-4 text-right"
               type="text"
               name="name"
               id="name"
+              placeholder="الاسم بالكامل"
             />
             <FontAwesomeIcon icon={faUser} width={16} height={16} />
           </div>
-          <div className="flex w-[419px] h-[52px] shadow-xl items-center p-[16px] bg-white rounded-md">
+          <div className="flex w-[419px] h-[52px] shadow-xl items-center p-4 bg-white rounded-md">
             <input
-              className="w-full outline-none border-none h-full p-[16px] text-right"
+              className="w-full outline-none border-none h-full p-4 text-right"
               type="email"
               name="email"
               id="email"
+              placeholder="البريد الالكتروني"
             />{" "}
             <FontAwesomeIcon icon={faEnvelope} width={16} height={16} />
           </div>
-          <div className="h-[114px] flex w-[419px] shadow-xl items-center p-[16px] bg-white rounded-md">
+          <div className="h-[114px] flex w-[419px] shadow-xl items-center p-4 bg-white rounded-md">
             <textarea
-              className="outline-none border-none w-full h-full text-right"
+              className="outline-none border-none w-full h-full text-right py-7 px-4"
               name="message"
               id="message"
+              placeholder="نص الرسالة"
             ></textarea>
             <FontAwesomeIcon icon={faPen} width={16} height={16} />
           </div>
@@ -79,7 +82,7 @@ const Contact = () => {
           <h3 className="text-right text-[34px] font-bold  text-[#116A7B]">
             تواصل معنا
           </h3>
-          <p className="text-[16px] text-black text-right">
+          <p className="text-4 text-black text-right">
             ليس لأحد أن يفسر كتاب الله بخلاف ما فسره به رسوله صلى الله عليه وسلم
           </p>
         </div>
