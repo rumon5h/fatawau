@@ -6,8 +6,8 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center px-5 bg-[#E8F1F2]">
-      <div className="flex bg-white justify-center items-center  p-5 rounded-[30px] gap-10">
+    <div className="flex justify-between items-center px-5">
+      <div className="flex bg-white shadow-md justify-center items-center  p-5 rounded-[30px] gap-10">
         <span className="flex items-center cursor-pointer">
           {" "}
           <span className="mr-2 text-black">المفضلة</span>{" "}
@@ -19,12 +19,12 @@ const Navbar = () => {
           <FontAwesomeIcon width={20} height={20} icon={faEarthAmericas} />
         </span>
       </div>
-      <div className="flex gap-7">
-        <Link href="#">تواصل معنا</Link>
-        <Link href="#">المدونات</Link>
-        <Link href="#">مجموع الفتاوى</Link>
-        <Link href="#">من نحن</Link>
-        <Link href="#">الرئيسية</Link>
+      <div className="flex gap-7 text-black font-bold">
+        <Link href="/contact">تواصل معنا</Link>
+        <Link href="/blogs">المدونات</Link>
+        <Link href="/fatwas">مجموع الفتاوى</Link>
+        <Link href="/about">من نحن</Link>
+        <Link href="/">الرئيسية</Link>
       </div>
       <div>
         <Image src="/logo.svg" alt="logo" width={88} height={89} />

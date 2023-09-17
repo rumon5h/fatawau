@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <div
       style={{ background: `url('/background_banner.png')` }}
-      className="w-full h-[80vh]  bg-no-repeat px-5 bg-white"
+      className="w-full h-[80vh]  bg-no-repeat px-5 bg-white mt-[-97px]"
     >
       <div className="pt-[150px]">
         <h3 className="text-[#116A7B] font-bold text-center text-[15px]">
@@ -22,16 +22,16 @@ const Banner = () => {
             <Image src="/Shape-498.svg" alt="" width={150} height={150} />
           </div>
           <div className="flex justify-center items-center w-[60%]">
-            <button className="p-5 rounded-md bg-[#116A7B] text-white mr-5">
+            <button className="py-5 px-10 text-lg font-bold rounded-md bg-[#116A7B] text-white mr-5">
               ابحث
             </button>{" "}
-            <div className="w-full border-[3px] rounded-md border-[#116A7B] flex justify-evenly items-center">
-            <FontAwesomeIcon icon={faMicrophone} width={20} height={20}/>
+            <div className="w-full bg-white border-[3px] rounded-md border-[#116A7B] flex justify-evenly items-center">
+            <FontAwesomeIcon className="ml-[7px] cursor-pointer" icon={faMicrophone} width={25} height={25}/>
               <input
                 type="text"
                 name="search"
                 id="search"
-                className="text-end border-none outline-none p-5 rounded-md w-full"
+                className="text-end border-none outline-none font-bold p-5 rounded-md w-full placeholder-slate-950"
                 placeholder="ابد البحث عن حكم"
               />
             </div>
