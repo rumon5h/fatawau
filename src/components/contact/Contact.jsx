@@ -5,7 +5,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="px-5 grid grid-cols-1 md:grid-cols-2 gap-5 my-16">
+    <div className="px-40 grid grid-cols-1 md:grid-cols-2 gap-5  my-16">
       <div className="flex items-center bg-white p-5 rounded-md shadow-2xl w-fit">
         <div className="mr-5">
           <Image

@@ -1,5 +1,6 @@
 'use client'
 import About from '@/components/about/About';
+import Contact from '@/components/contact/Contact';
 import { faMicrophone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
@@ -65,6 +66,8 @@ const AboutUs = () => {
 
         </div>
       </div>
+      
+      <Contact/>
     </div>
   )
 }
