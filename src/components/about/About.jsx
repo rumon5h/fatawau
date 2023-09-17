@@ -5,7 +5,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="px-5">
+    <div className="px-5 my-9">
       <h3 className="text-[#116A7B] text-6xl ring-0 font-bold text-right px-5 mb-5">
         عن فتوى .. ؟
       </h3>
