@@ -7,7 +7,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div className="flex justify-between items-center px-5">
-      <div className="flex bg-white justify-center items-center  p-5 rounded-[30px] gap-10">
+      <div className="flex bg-white shadow-md justify-center items-center  p-5 rounded-[30px] gap-10">
         <span className="flex items-center cursor-pointer">
           {" "}
           <span className="mr-2 text-black">المفضلة</span>{" "}
@@ -23,8 +23,8 @@ const Navbar = () => {
         <Link href="/contact">تواصل معنا</Link>
         <Link href="/blogs">المدونات</Link>
         <Link href="/fatwas">مجموع الفتاوى</Link>
-        <Link href="/aboutus">من نحن</Link>
-        <Link href="/main">الرئيسية</Link>
+        <Link href="/about">من نحن</Link>
+        <Link href="/">الرئيسية</Link>
       </div>
       <div>
         <Image src="/logo.svg" alt="logo" width={88} height={89} />

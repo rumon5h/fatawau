@@ -7,7 +7,7 @@ import QuranBanner from "@/components/quranBanner/QuranBanner";
 
 export default function Home() {
   return (
-   <main>
+   <main className="">
     <Banner />
     <QuranBanner/>
     <About/>

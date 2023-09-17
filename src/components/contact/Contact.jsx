@@ -98,12 +98,12 @@ const Contact = () => {
             />
             <div className="mt-5">
               <p className="text-right">البريد الالكتروني</p>
-              <p className="text-right">info@Fatawa.com</p>
+              <p className="text-right">info@fatawa.com</p>
             </div>
           </div>
           <div className="mt-5 mr-14" >
             <p className="text-right">البريد الالكتروني</p>
-            <p className="text-right">info@Fatawa.com</p>
+            <p className="text-right">info@fatawa.com</p>
           </div>
         </div>
         
@@ -118,12 +118,12 @@ const Contact = () => {
             />
             <div className="mt-5">
               <p className="text-right">البريد الالكتروني</p>
-              <p className="text-right">info@Fatawa.com</p>
+              <p className="text-right">info@fatawa.com</p>
             </div>
           </div>
           <div className="mt-5 mr-14" >
             <p className="text-right">البريد الالكتروني</p>
-            <p className="text-right">info@Fatawa.com</p>
+            <p className="text-right">info@fatawa.com</p>
           </div>
         </div>
         
