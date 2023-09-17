@@ -6,7 +6,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center px-5 bg-[#E8F1F2]">
+    <div className="flex justify-between items-center px-5">
       <div className="flex bg-white justify-center items-center  p-5 rounded-[30px] gap-10">
         <span className="flex items-center cursor-pointer">
           {" "}

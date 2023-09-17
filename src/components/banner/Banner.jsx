@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <div
       style={{ background: `url('/background_banner.png')` }}
-      className="w-full h-[80vh]  bg-no-repeat px-5 bg-white"
+      className="w-full h-[80vh]  bg-no-repeat px-5 bg-white mt-[-97px]"
     >
       <div className="pt-[150px]">
         <h3 className="text-[#116A7B] font-bold text-center text-[15px]">
