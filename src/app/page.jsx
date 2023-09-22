@@ -14,7 +14,6 @@ export default function Home() {
     <Fatwa/>
     <Blogs/>
     <Contact/>
-
    </main>
   )
 }
