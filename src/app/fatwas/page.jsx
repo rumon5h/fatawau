@@ -2,7 +2,7 @@ import React from 'react'
 
 const Fatwas = () => {
   return (
-    <div>Fatwas</div>
+    <div className='flex justify-center items-center h-[90vh]'>Fatwas</div>
   )
 }
 
